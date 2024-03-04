@@ -1,3 +1,68 @@
 body {
-  margin: 0;
+  margin: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+li {
+  display: inline-block;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 12px 12px;
+  border-radius: 40px;
+  color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(195, 39, 39);
+  padding: 10px;
+  color: white;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.breed-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+p {
+  font-size: small;
+  margin: 5px;
+}
+
+.breeds {
+  display: grid;
+  box-shadow: 10px 10px 10px 5px grey;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 50px;
 }
